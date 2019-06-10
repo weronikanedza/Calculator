@@ -1,0 +1,1772 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyComponent should render correctly in "debug" mode 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CalculatorForm
+    debug={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="calc-form"
+        >
+          <form
+            onSubmit={[Function]}
+          >
+            <div>
+              <TextField
+                id="ip"
+                label="Adres IP"
+                onChange={[Function]}
+                required={true}
+                select={false}
+                type="text"
+                value=""
+                variant="standard"
+              />
+              <TextField
+                id="mask"
+                label="Maska"
+                onChange={[Function]}
+                required={true}
+                select={false}
+                type="text"
+                value=""
+                variant="standard"
+              />
+            </div>
+            <WithStyles(Button)
+              type="submit"
+              variant="outlined"
+            >
+              Zapisz
+            </WithStyles(Button)>
+          </form>
+        </div>,
+        <div>
+          <TextField
+            InputProps={
+              Object {
+                "readOnly": true,
+              }
+            }
+            label="Adres IP"
+            required={false}
+            select={false}
+            value=""
+            variant="standard"
+          />
+          <TextField
+            InputProps={
+              Object {
+                "readOnly": true,
+              }
+            }
+            label=" "
+            required={false}
+            select={false}
+            value=""
+            variant="standard"
+          />
+        </div>,
+        <div>
+          <TextField
+            InputProps={
+              Object {
+                "readOnly": true,
+              }
+            }
+            label="Maska"
+            required={false}
+            select={false}
+            value=""
+            variant="standard"
+          />
+          <TextField
+            InputProps={
+              Object {
+                "readOnly": true,
+              }
+            }
+            label=" "
+            required={false}
+            select={false}
+            value=""
+            variant="standard"
+          />
+        </div>,
+        <div>
+          <TextField
+            InputProps={
+              Object {
+                "readOnly": true,
+              }
+            }
+            label="Adres sieci"
+            required={false}
+            select={false}
+            value=""
+            variant="standard"
+          />
+          <TextField
+            InputProps={
+              Object {
+                "readOnly": true,
+              }
+            }
+            label=" "
+            required={false}
+            select={false}
+            value=""
+            variant="standard"
+          />
+        </div>,
+        <div>
+          <TextField
+            InputProps={
+              Object {
+                "readOnly": true,
+              }
+            }
+            label="Adres rozgłoszeniowy"
+            required={false}
+            select={false}
+            value=""
+            variant="standard"
+          />
+          <TextField
+            InputProps={
+              Object {
+                "readOnly": true,
+              }
+            }
+            label=" "
+            required={false}
+            select={false}
+            value=""
+            variant="standard"
+          />
+        </div>,
+        <div>
+          <TextField
+            InputProps={
+              Object {
+                "readOnly": true,
+              }
+            }
+            label="Adres pierwszego hosta"
+            required={false}
+            select={false}
+            value=""
+            variant="standard"
+          />
+          <TextField
+            InputProps={
+              Object {
+                "readOnly": true,
+              }
+            }
+            label=" "
+            required={false}
+            select={false}
+            value=""
+            variant="standard"
+          />
+        </div>,
+        <div>
+          <TextField
+            InputProps={
+              Object {
+                "readOnly": true,
+              }
+            }
+            label="Adres ostatniego hosta"
+            required={false}
+            select={false}
+            value=""
+            variant="standard"
+          />
+          <TextField
+            InputProps={
+              Object {
+                "readOnly": true,
+              }
+            }
+            label=" "
+            required={false}
+            select={false}
+            value=""
+            variant="standard"
+          />
+        </div>,
+        <div>
+          <TextField
+            InputProps={
+              Object {
+                "readOnly": true,
+              }
+            }
+            label="Liczba hostów"
+            required={false}
+            select={false}
+            value=""
+            variant="standard"
+          />
+        </div>,
+      ],
+      "className": "calc-form-component",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <form
+            onSubmit={[Function]}
+          >
+            <div>
+              <TextField
+                id="ip"
+                label="Adres IP"
+                onChange={[Function]}
+                required={true}
+                select={false}
+                type="text"
+                value=""
+                variant="standard"
+              />
+              <TextField
+                id="mask"
+                label="Maska"
+                onChange={[Function]}
+                required={true}
+                select={false}
+                type="text"
+                value=""
+                variant="standard"
+              />
+            </div>
+            <WithStyles(Button)
+              type="submit"
+              variant="outlined"
+            >
+              Zapisz
+            </WithStyles(Button)>
+          </form>,
+          "className": "calc-form",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div>
+                <TextField
+                  id="ip"
+                  label="Adres IP"
+                  onChange={[Function]}
+                  required={true}
+                  select={false}
+                  type="text"
+                  value=""
+                  variant="standard"
+                />
+                <TextField
+                  id="mask"
+                  label="Maska"
+                  onChange={[Function]}
+                  required={true}
+                  select={false}
+                  type="text"
+                  value=""
+                  variant="standard"
+                />
+              </div>,
+              <WithStyles(Button)
+                type="submit"
+                variant="outlined"
+              >
+                Zapisz
+              </WithStyles(Button)>,
+            ],
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <TextField
+                    id="ip"
+                    label="Adres IP"
+                    onChange={[Function]}
+                    required={true}
+                    select={false}
+                    type="text"
+                    value=""
+                    variant="standard"
+                  />,
+                  <TextField
+                    id="mask"
+                    label="Maska"
+                    onChange={[Function]}
+                    required={true}
+                    select={false}
+                    type="text"
+                    value=""
+                    variant="standard"
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "id": "ip",
+                    "label": "Adres IP",
+                    "onChange": [Function],
+                    "required": true,
+                    "select": false,
+                    "type": "text",
+                    "value": "",
+                    "variant": "standard",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "id": "mask",
+                    "label": "Maska",
+                    "onChange": [Function],
+                    "required": true,
+                    "select": false,
+                    "type": "text",
+                    "value": "",
+                    "variant": "standard",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Zapisz",
+                "type": "submit",
+                "variant": "outlined",
+              },
+              "ref": null,
+              "rendered": "Zapisz",
+              "type": [Function],
+            },
+          ],
+          "type": "form",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <TextField
+              InputProps={
+                Object {
+                  "readOnly": true,
+                }
+              }
+              label="Adres IP"
+              required={false}
+              select={false}
+              value=""
+              variant="standard"
+            />,
+            <TextField
+              InputProps={
+                Object {
+                  "readOnly": true,
+                }
+              }
+              label=" "
+              required={false}
+              select={false}
+              value=""
+              variant="standard"
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "InputProps": Object {
+                "readOnly": true,
+              },
+              "label": "Adres IP",
+              "required": false,
+              "select": false,
+              "value": "",
+              "variant": "standard",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "InputProps": Object {
+                "readOnly": true,
+              },
+              "label": " ",
+              "required": false,
+              "select": false,
+              "value": "",
+              "variant": "standard",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <TextField
+              InputProps={
+                Object {
+                  "readOnly": true,
+                }
+              }
+              label="Maska"
+              required={false}
+              select={false}
+              value=""
+              variant="standard"
+            />,
+            <TextField
+              InputProps={
+                Object {
+                  "readOnly": true,
+                }
+              }
+              label=" "
+              required={false}
+              select={false}
+              value=""
+              variant="standard"
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "InputProps": Object {
+                "readOnly": true,
+              },
+              "label": "Maska",
+              "required": false,
+              "select": false,
+              "value": "",
+              "variant": "standard",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "InputProps": Object {
+                "readOnly": true,
+              },
+              "label": " ",
+              "required": false,
+              "select": false,
+              "value": "",
+              "variant": "standard",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <TextField
+              InputProps={
+                Object {
+                  "readOnly": true,
+                }
+              }
+              label="Adres sieci"
+              required={false}
+              select={false}
+              value=""
+              variant="standard"
+            />,
+            <TextField
+              InputProps={
+                Object {
+                  "readOnly": true,
+                }
+              }
+              label=" "
+              required={false}
+              select={false}
+              value=""
+              variant="standard"
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "InputProps": Object {
+                "readOnly": true,
+              },
+              "label": "Adres sieci",
+              "required": false,
+              "select": false,
+              "value": "",
+              "variant": "standard",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "InputProps": Object {
+                "readOnly": true,
+              },
+              "label": " ",
+              "required": false,
+              "select": false,
+              "value": "",
+              "variant": "standard",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <TextField
+              InputProps={
+                Object {
+                  "readOnly": true,
+                }
+              }
+              label="Adres rozgłoszeniowy"
+              required={false}
+              select={false}
+              value=""
+              variant="standard"
+            />,
+            <TextField
+              InputProps={
+                Object {
+                  "readOnly": true,
+                }
+              }
+              label=" "
+              required={false}
+              select={false}
+              value=""
+              variant="standard"
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "InputProps": Object {
+                "readOnly": true,
+              },
+              "label": "Adres rozgłoszeniowy",
+              "required": false,
+              "select": false,
+              "value": "",
+              "variant": "standard",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "InputProps": Object {
+                "readOnly": true,
+              },
+              "label": " ",
+              "required": false,
+              "select": false,
+              "value": "",
+              "variant": "standard",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <TextField
+              InputProps={
+                Object {
+                  "readOnly": true,
+                }
+              }
+              label="Adres pierwszego hosta"
+              required={false}
+              select={false}
+              value=""
+              variant="standard"
+            />,
+            <TextField
+              InputProps={
+                Object {
+                  "readOnly": true,
+                }
+              }
+              label=" "
+              required={false}
+              select={false}
+              value=""
+              variant="standard"
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "InputProps": Object {
+                "readOnly": true,
+              },
+              "label": "Adres pierwszego hosta",
+              "required": false,
+              "select": false,
+              "value": "",
+              "variant": "standard",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "InputProps": Object {
+                "readOnly": true,
+              },
+              "label": " ",
+              "required": false,
+              "select": false,
+              "value": "",
+              "variant": "standard",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <TextField
+              InputProps={
+                Object {
+                  "readOnly": true,
+                }
+              }
+              label="Adres ostatniego hosta"
+              required={false}
+              select={false}
+              value=""
+              variant="standard"
+            />,
+            <TextField
+              InputProps={
+                Object {
+                  "readOnly": true,
+                }
+              }
+              label=" "
+              required={false}
+              select={false}
+              value=""
+              variant="standard"
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "InputProps": Object {
+                "readOnly": true,
+              },
+              "label": "Adres ostatniego hosta",
+              "required": false,
+              "select": false,
+              "value": "",
+              "variant": "standard",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "InputProps": Object {
+                "readOnly": true,
+              },
+              "label": " ",
+              "required": false,
+              "select": false,
+              "value": "",
+              "variant": "standard",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <TextField
+            InputProps={
+              Object {
+                "readOnly": true,
+              }
+            }
+            label="Liczba hostów"
+            required={false}
+            select={false}
+            value=""
+            variant="standard"
+          />,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "InputProps": Object {
+              "readOnly": true,
+            },
+            "label": "Liczba hostów",
+            "required": false,
+            "select": false,
+            "value": "",
+            "variant": "standard",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="calc-form"
+          >
+            <form
+              onSubmit={[Function]}
+            >
+              <div>
+                <TextField
+                  id="ip"
+                  label="Adres IP"
+                  onChange={[Function]}
+                  required={true}
+                  select={false}
+                  type="text"
+                  value=""
+                  variant="standard"
+                />
+                <TextField
+                  id="mask"
+                  label="Maska"
+                  onChange={[Function]}
+                  required={true}
+                  select={false}
+                  type="text"
+                  value=""
+                  variant="standard"
+                />
+              </div>
+              <WithStyles(Button)
+                type="submit"
+                variant="outlined"
+              >
+                Zapisz
+              </WithStyles(Button)>
+            </form>
+          </div>,
+          <div>
+            <TextField
+              InputProps={
+                Object {
+                  "readOnly": true,
+                }
+              }
+              label="Adres IP"
+              required={false}
+              select={false}
+              value=""
+              variant="standard"
+            />
+            <TextField
+              InputProps={
+                Object {
+                  "readOnly": true,
+                }
+              }
+              label=" "
+              required={false}
+              select={false}
+              value=""
+              variant="standard"
+            />
+          </div>,
+          <div>
+            <TextField
+              InputProps={
+                Object {
+                  "readOnly": true,
+                }
+              }
+              label="Maska"
+              required={false}
+              select={false}
+              value=""
+              variant="standard"
+            />
+            <TextField
+              InputProps={
+                Object {
+                  "readOnly": true,
+                }
+              }
+              label=" "
+              required={false}
+              select={false}
+              value=""
+              variant="standard"
+            />
+          </div>,
+          <div>
+            <TextField
+              InputProps={
+                Object {
+                  "readOnly": true,
+                }
+              }
+              label="Adres sieci"
+              required={false}
+              select={false}
+              value=""
+              variant="standard"
+            />
+            <TextField
+              InputProps={
+                Object {
+                  "readOnly": true,
+                }
+              }
+              label=" "
+              required={false}
+              select={false}
+              value=""
+              variant="standard"
+            />
+          </div>,
+          <div>
+            <TextField
+              InputProps={
+                Object {
+                  "readOnly": true,
+                }
+              }
+              label="Adres rozgłoszeniowy"
+              required={false}
+              select={false}
+              value=""
+              variant="standard"
+            />
+            <TextField
+              InputProps={
+                Object {
+                  "readOnly": true,
+                }
+              }
+              label=" "
+              required={false}
+              select={false}
+              value=""
+              variant="standard"
+            />
+          </div>,
+          <div>
+            <TextField
+              InputProps={
+                Object {
+                  "readOnly": true,
+                }
+              }
+              label="Adres pierwszego hosta"
+              required={false}
+              select={false}
+              value=""
+              variant="standard"
+            />
+            <TextField
+              InputProps={
+                Object {
+                  "readOnly": true,
+                }
+              }
+              label=" "
+              required={false}
+              select={false}
+              value=""
+              variant="standard"
+            />
+          </div>,
+          <div>
+            <TextField
+              InputProps={
+                Object {
+                  "readOnly": true,
+                }
+              }
+              label="Adres ostatniego hosta"
+              required={false}
+              select={false}
+              value=""
+              variant="standard"
+            />
+            <TextField
+              InputProps={
+                Object {
+                  "readOnly": true,
+                }
+              }
+              label=" "
+              required={false}
+              select={false}
+              value=""
+              variant="standard"
+            />
+          </div>,
+          <div>
+            <TextField
+              InputProps={
+                Object {
+                  "readOnly": true,
+                }
+              }
+              label="Liczba hostów"
+              required={false}
+              select={false}
+              value=""
+              variant="standard"
+            />
+          </div>,
+        ],
+        "className": "calc-form-component",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <form
+              onSubmit={[Function]}
+            >
+              <div>
+                <TextField
+                  id="ip"
+                  label="Adres IP"
+                  onChange={[Function]}
+                  required={true}
+                  select={false}
+                  type="text"
+                  value=""
+                  variant="standard"
+                />
+                <TextField
+                  id="mask"
+                  label="Maska"
+                  onChange={[Function]}
+                  required={true}
+                  select={false}
+                  type="text"
+                  value=""
+                  variant="standard"
+                />
+              </div>
+              <WithStyles(Button)
+                type="submit"
+                variant="outlined"
+              >
+                Zapisz
+              </WithStyles(Button)>
+            </form>,
+            "className": "calc-form",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div>
+                  <TextField
+                    id="ip"
+                    label="Adres IP"
+                    onChange={[Function]}
+                    required={true}
+                    select={false}
+                    type="text"
+                    value=""
+                    variant="standard"
+                  />
+                  <TextField
+                    id="mask"
+                    label="Maska"
+                    onChange={[Function]}
+                    required={true}
+                    select={false}
+                    type="text"
+                    value=""
+                    variant="standard"
+                  />
+                </div>,
+                <WithStyles(Button)
+                  type="submit"
+                  variant="outlined"
+                >
+                  Zapisz
+                </WithStyles(Button)>,
+              ],
+              "onSubmit": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <TextField
+                      id="ip"
+                      label="Adres IP"
+                      onChange={[Function]}
+                      required={true}
+                      select={false}
+                      type="text"
+                      value=""
+                      variant="standard"
+                    />,
+                    <TextField
+                      id="mask"
+                      label="Maska"
+                      onChange={[Function]}
+                      required={true}
+                      select={false}
+                      type="text"
+                      value=""
+                      variant="standard"
+                    />,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "id": "ip",
+                      "label": "Adres IP",
+                      "onChange": [Function],
+                      "required": true,
+                      "select": false,
+                      "type": "text",
+                      "value": "",
+                      "variant": "standard",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "id": "mask",
+                      "label": "Maska",
+                      "onChange": [Function],
+                      "required": true,
+                      "select": false,
+                      "type": "text",
+                      "value": "",
+                      "variant": "standard",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Zapisz",
+                  "type": "submit",
+                  "variant": "outlined",
+                },
+                "ref": null,
+                "rendered": "Zapisz",
+                "type": [Function],
+              },
+            ],
+            "type": "form",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <TextField
+                InputProps={
+                  Object {
+                    "readOnly": true,
+                  }
+                }
+                label="Adres IP"
+                required={false}
+                select={false}
+                value=""
+                variant="standard"
+              />,
+              <TextField
+                InputProps={
+                  Object {
+                    "readOnly": true,
+                  }
+                }
+                label=" "
+                required={false}
+                select={false}
+                value=""
+                variant="standard"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "InputProps": Object {
+                  "readOnly": true,
+                },
+                "label": "Adres IP",
+                "required": false,
+                "select": false,
+                "value": "",
+                "variant": "standard",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "InputProps": Object {
+                  "readOnly": true,
+                },
+                "label": " ",
+                "required": false,
+                "select": false,
+                "value": "",
+                "variant": "standard",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <TextField
+                InputProps={
+                  Object {
+                    "readOnly": true,
+                  }
+                }
+                label="Maska"
+                required={false}
+                select={false}
+                value=""
+                variant="standard"
+              />,
+              <TextField
+                InputProps={
+                  Object {
+                    "readOnly": true,
+                  }
+                }
+                label=" "
+                required={false}
+                select={false}
+                value=""
+                variant="standard"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "InputProps": Object {
+                  "readOnly": true,
+                },
+                "label": "Maska",
+                "required": false,
+                "select": false,
+                "value": "",
+                "variant": "standard",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "InputProps": Object {
+                  "readOnly": true,
+                },
+                "label": " ",
+                "required": false,
+                "select": false,
+                "value": "",
+                "variant": "standard",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <TextField
+                InputProps={
+                  Object {
+                    "readOnly": true,
+                  }
+                }
+                label="Adres sieci"
+                required={false}
+                select={false}
+                value=""
+                variant="standard"
+              />,
+              <TextField
+                InputProps={
+                  Object {
+                    "readOnly": true,
+                  }
+                }
+                label=" "
+                required={false}
+                select={false}
+                value=""
+                variant="standard"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "InputProps": Object {
+                  "readOnly": true,
+                },
+                "label": "Adres sieci",
+                "required": false,
+                "select": false,
+                "value": "",
+                "variant": "standard",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "InputProps": Object {
+                  "readOnly": true,
+                },
+                "label": " ",
+                "required": false,
+                "select": false,
+                "value": "",
+                "variant": "standard",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <TextField
+                InputProps={
+                  Object {
+                    "readOnly": true,
+                  }
+                }
+                label="Adres rozgłoszeniowy"
+                required={false}
+                select={false}
+                value=""
+                variant="standard"
+              />,
+              <TextField
+                InputProps={
+                  Object {
+                    "readOnly": true,
+                  }
+                }
+                label=" "
+                required={false}
+                select={false}
+                value=""
+                variant="standard"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "InputProps": Object {
+                  "readOnly": true,
+                },
+                "label": "Adres rozgłoszeniowy",
+                "required": false,
+                "select": false,
+                "value": "",
+                "variant": "standard",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "InputProps": Object {
+                  "readOnly": true,
+                },
+                "label": " ",
+                "required": false,
+                "select": false,
+                "value": "",
+                "variant": "standard",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <TextField
+                InputProps={
+                  Object {
+                    "readOnly": true,
+                  }
+                }
+                label="Adres pierwszego hosta"
+                required={false}
+                select={false}
+                value=""
+                variant="standard"
+              />,
+              <TextField
+                InputProps={
+                  Object {
+                    "readOnly": true,
+                  }
+                }
+                label=" "
+                required={false}
+                select={false}
+                value=""
+                variant="standard"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "InputProps": Object {
+                  "readOnly": true,
+                },
+                "label": "Adres pierwszego hosta",
+                "required": false,
+                "select": false,
+                "value": "",
+                "variant": "standard",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "InputProps": Object {
+                  "readOnly": true,
+                },
+                "label": " ",
+                "required": false,
+                "select": false,
+                "value": "",
+                "variant": "standard",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <TextField
+                InputProps={
+                  Object {
+                    "readOnly": true,
+                  }
+                }
+                label="Adres ostatniego hosta"
+                required={false}
+                select={false}
+                value=""
+                variant="standard"
+              />,
+              <TextField
+                InputProps={
+                  Object {
+                    "readOnly": true,
+                  }
+                }
+                label=" "
+                required={false}
+                select={false}
+                value=""
+                variant="standard"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "InputProps": Object {
+                  "readOnly": true,
+                },
+                "label": "Adres ostatniego hosta",
+                "required": false,
+                "select": false,
+                "value": "",
+                "variant": "standard",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "InputProps": Object {
+                  "readOnly": true,
+                },
+                "label": " ",
+                "required": false,
+                "select": false,
+                "value": "",
+                "variant": "standard",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <TextField
+              InputProps={
+                Object {
+                  "readOnly": true,
+                }
+              }
+              label="Liczba hostów"
+              required={false}
+              select={false}
+              value=""
+              variant="standard"
+            />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "InputProps": Object {
+                "readOnly": true,
+              },
+              "label": "Liczba hostów",
+              "required": false,
+              "select": false,
+              "value": "",
+              "variant": "standard",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
